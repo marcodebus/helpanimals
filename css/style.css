@@ -176,7 +176,7 @@ i {
     display: inline-block;
     animation: bouncedelay 1.4s infinite ease-in-out;
     /* Prevent first frame from flickering when animation starts */
-    
+
     animation-fill-mode: both;
 }
 .spinner .bounce1 {
@@ -502,7 +502,7 @@ ul.slider-pagi {
  Video Header
 ============================ */
 
-#header-video video { 
+#header-video video {
 	margin-top:350px;
 	position: fixed!important;
 	left: 50%!important;
@@ -515,7 +515,7 @@ ul.slider-pagi {
 	transition: 1s opacity;
 }
 
-.video-text h1 { 
+.video-text h1 {
     background: rgba(0,0,0,0.6);
     color: #fff;
     top: 70%;
@@ -529,7 +529,7 @@ ul.slider-pagi {
 }
 
 /* ===========================
- Stats 
+ Stats
 ============================ */
 
 #stats .numscroller {
@@ -540,7 +540,7 @@ ul.slider-pagi {
     margin-top: 0px;
 }
 #stats {
-    background-image: url(../img/illustrations/bones.png), url(../img/stats.png), url(../img/illustrations/bones1.png);
+    background-image: url(../img/illustrations/bones.png), url(../img/rauber.jpg), url(../img/illustrations/bones1.png);
     animation: dog-bones-falling 9s linear infinite;
     animation-direction: normal;
     background-repeat: no-repeat;
@@ -556,7 +556,7 @@ ul.slider-pagi {
     }
 }
 /* ===========================
- Features 
+ Features
 ============================ */
 
 .features {
@@ -578,7 +578,7 @@ ul.slider-pagi {
 ============================ */
 
 .bg1 {
-    background: url(../img/callout1.jpg) no-repeat;
+    background: url(../img/hunde.png) no-repeat;
 	background-attachment:fixed;
 	background-size: cover;
 }
@@ -587,7 +587,7 @@ ul.slider-pagi {
 ============================ */
 
 #reviews {
-    background-image: url(../img/reviews1.png);
+    background-image: url(../img/welpen.jpg);
     background-repeat: no-repeat;
     background-position: -10% bottom;
 }
@@ -596,7 +596,7 @@ ul.slider-pagi {
 ============================ */
 
 #contact-index {
-    background: url(../img/contact1.png) no-repeat;
+    background: url(../img/welpen.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position: 0% bottom;
 	background-color:#fff;
@@ -663,7 +663,7 @@ ul.slider-pagi {
 .pet-adopt-info h6{
 	display:inline;
 }
-.pet-adopt-info h6:after{     
+.pet-adopt-info h6:after{
      content: "\f14a";
     font-family: "flaticon";
     font-size: 20px;
@@ -1022,7 +1022,7 @@ ul.slider-pagi {
     transition: all 0.2s ease-in-out;
 }
 .blog-tags a:hover,
-.blog-tags a:focus {   
+.blog-tags a:focus {
     color: #fff;
 }
 .blog-tags a::before {
@@ -1280,7 +1280,7 @@ section.small-section {
 }
 /* elements page */
 
-#elements .row{    
+#elements .row{
    margin-right: 0px;
     margin-left: 0px;
 }
@@ -1557,15 +1557,15 @@ section.pages {
  	max-width:100%;
 	margin:0 auto;
 }
- 
+
 .boxed div.pp_pic_holder{
-  position: absolute; 
-  left: 0!important; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
+  position: absolute;
+  left: 0!important;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
  }
-  
+
 /* tab content */
 
 .tab-content {
@@ -2044,8 +2044,8 @@ button.list-group-item:hover {
 /*===========================
   Media Queries
 ============================ */
- 
- 
+
+
 /************ min width 2550px *************/
 
 @media (min-width : 2550px) {
@@ -2067,11 +2067,11 @@ button.list-group-item:hover {
 	.slide__text {
 		max-width: 25%;
 	}
-		
+
 	.jumbotron{height:450px;}
-	
+
 	.jumbotron .jumbo-heading {margin-top: 380px;}
-	
+
 	#contact-index {background-position: 15% bottom;}
 }
 /************ min width 1199px *************/
@@ -2088,7 +2088,7 @@ button.list-group-item:hover {
 
 @media (max-width: 1199px) {
     /* callout box */
-    
+
     .callout-box {
         position: relative;
         padding: 40px;
@@ -2098,7 +2098,7 @@ button.list-group-item:hover {
 
 @media (min-width: 991px) and (max-width: 1300px) {
     /* Jumbotron */
-    
+
     .jumbotron .jumbo-heading {
         margin-top: 170px;
     }
@@ -2122,7 +2122,7 @@ button.list-group-item:hover {
 
 @media (max-width: 992px) {
     /* Headers */
-    
+
     h1 {
         font-size: 42px !important;
 		line-height: 42px;
@@ -2143,19 +2143,19 @@ button.list-group-item:hover {
         font-size: 20px;
     }
     /* Responsive margin*/
-    
+
     .res-margin,
     .margin1 {
         margin-top: 30px;
     }
     /*navbar */
-    
+
     .nav>li {
         text-align: center;
         font-size: 20px;
     }
     /* NO Shrink navbar on scroll  */
-    
+
     .navbar-brand {
         padding: 10px 10px;
     }
@@ -2176,7 +2176,7 @@ button.list-group-item:hover {
         padding: 4px 5px;
     }
     /* navbar collapse at 991px */
-    
+
     .navbar-header {
         float: none;
         margin-top: -2px;
@@ -2189,9 +2189,9 @@ button.list-group-item:hover {
     }
     .navbar-collapse.collapse.in {
         display: block!important;
-		max-height: 80vh !important; 
-		overflow-y: auto !important; 
-		overflow-x: hidden !important; 
+		max-height: 80vh !important;
+		overflow-y: auto !important;
+		overflow-x: hidden !important;
 	}
 	.navbar-collapse::-webkit-scrollbar {
         width: 20px;
@@ -2229,14 +2229,14 @@ button.list-group-item:hover {
 		margin-right: 0px;
 		margin-left: 0px;
     }
-	
+
     /* Space between sections */
-    
+
     .section-heading {
         margin-bottom: 30px;
     }
     /* miscelaneous */
-    
+
     .owl-prev i,
     .owl-next i {
         display: none;
@@ -2258,7 +2258,7 @@ button.list-group-item:hover {
 		background-position: bottom!important
     }
     /* Main Slider */
-    
+
     .slider {
         height: 600px;
         top: 60px;
@@ -2290,9 +2290,9 @@ button.list-group-item:hover {
     }
     #curveUp {
         display: none;
-    }	
+    }
     /* Jumbotron */
-    
+
     .jumbotron {
         background-position: bottom!important;
     }
@@ -2300,7 +2300,7 @@ button.list-group-item:hover {
     .bg-pattern	{
         background-image: none;
     }
-	#header-video video { 
+	#header-video video {
 		margin-top:350px;
 	}
 }
@@ -2313,7 +2313,7 @@ button.list-group-item:hover {
         font-size: 63px;
     }
     /* Main Slider */
-    
+
     .slider {
         height: 450px;
     }
@@ -2322,7 +2322,7 @@ button.list-group-item:hover {
 
 @media (max-width: 767px) {
     /* Main Slider */
-    
+
     .slider {
         height: 380px;
     }
@@ -2330,7 +2330,7 @@ button.list-group-item:hover {
         bottom: -6%;
     }
     /* Jumbotron */
-    
+
     .jumbotron .jumbo-heading {
         margin-top: 140px;
     }
@@ -2342,7 +2342,7 @@ button.list-group-item:hover {
         background-image: none;
     }
     /* Miscelaneous */
-    
+
     .nav-tabs > li {
         margin-bottom: 10px!important;
     }
@@ -2367,9 +2367,9 @@ button.list-group-item:hover {
 /************ max width 480px *************/
 
 @media (max-width: 480px) {
-	
+
     /* Jumbotron */
-    
+
     .jumbotron .jumbo-heading {
         left: 0%;
         right: 0%;
@@ -2388,7 +2388,7 @@ button.list-group-item:hover {
         height: 1rem;
     }
     /* Headers */
-    
+
     h1 {
         font-size: 22px !important;
         text-transform: uppercase;
@@ -2414,7 +2414,7 @@ button.list-group-item:hover {
         text-shadow: none!important;
     }
     /* section */
-    
+
     .section-heading h2 {
         border: 0;
         line-height: 28px;
@@ -2449,7 +2449,7 @@ button.list-group-item:hover {
         font-size: 11px;
     }
     /* Miscellaneous */
-    
+
     .glyph {
         width: 100%;
     }
@@ -2534,14 +2534,14 @@ button.list-group-item:hover {
         padding: 0px;
     }
     /* Main Slider and video header */
-    
+
     .slider {
         height: 220px;
     }
     .slider-pagi {
         display: none;
     }
-	#video-header video { 
+	#video-header video {
 		margin-top:30px;
 	}
 	.video-text h1 {
@@ -2555,14 +2555,14 @@ button.list-group-item:hover {
 
 @media (max-width: 320px) {
     /* Reviews */
-    
+
     .review .review-icons {
         padding: 0px;
         text-align: center;
         margin-top: 20px;
     }
     /* Nav-tabs */
-    
+
     .nav.nav-tabs > li > a {
         min-height: 30px;
         font-size: 16px;
@@ -2570,7 +2570,7 @@ button.list-group-item:hover {
         line-height: 15px;
     }
     /* Miscellaneous */
-    
+
     footer .table .text-left {
         font-weight: 900;
     }
@@ -2589,17 +2589,17 @@ button.list-group-item:hover {
     .table tr {
         display: block;
     }
-	
+
 	#video-header video {
 		height: 200px;
 	}
-	
+
 	#video-header.embed-responsive-16by9 {
       padding: 100px;
     }
 
     /* Main Slider */
-    
+
     .slider {
         height: 180px;
     }

@@ -1,7 +1,7 @@
    $(document).ready(function () {
 
 		//Open street  Map
-		var coord = [40.738270, -74.008911]; // <--- coordinates here
+		var coord = [49.936803, 9.0396174]; // <--- coordinates here
 
 		var map = L.map('map-canvas', { scrollWheelZoom:false}).setView(coord, 19);
 
@@ -11,7 +11,7 @@
 		}).addTo(map);
 
 		L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-		attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+		attribution: 'Help Animals &copy; Debus Software &mdash; Source: Debus Software, Ostring 24, 2019'
 		}).addTo(map);
 
 		// custom icon
@@ -21,6 +21,6 @@
 		iconAnchor:   [32, 63] // point of the icon which will correspond to marker's location
 		});
 
-		// marker object, pass custom icon as option, add to map         
+		// marker object, pass custom icon as option, add to map
 		var marker = L.marker(coord, {icon: customIcon}).addTo(map);
 		});
